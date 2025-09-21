@@ -1,0 +1,24 @@
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
+plugins=(git
+         starship
+         zsh-autosuggestions 
+         zsh-syntax-highlighting
+	       zoxide
+	       sudo 
+	      )
+
+source $ZSH/oh-my-zsh.sh
+
+fastfetch
+alias x='clear'
+alias v='nvim'
+alias ls='lsd'
+alias lt='ls --tree'
+alias cd='z'
+alias kamui='nix run .#activationPackage '
+
+if [ -e /home/ijadux2/.nix-profile/etc/profile.d/nix.sh ]; then . /home/ijadux2/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+. /home/ijadux2/.nix-profile/etc/profile.d/nix.sh
+
+export NGROK_AUTHTOKEN=32wEFsLpuEwRrpQWYmr4sWtcqGW_4YP8fT3szJLVu7XcrT8F8
