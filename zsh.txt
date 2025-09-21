@@ -4,8 +4,8 @@ plugins=(git
          starship
          zsh-autosuggestions 
          zsh-syntax-highlighting
-	       zoxide
-	       sudo 
+	     zoxide
+	     sudo 
 	      )
 
 source $ZSH/oh-my-zsh.sh
