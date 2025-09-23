@@ -1,0 +1,9 @@
+# ghostty-config like kitty but not on tilling !!
+font-family = "JetBrainsMono Nerd Font"
+theme = "Catppuccin Mocha"
+
+title = "ghostty-terminal"
+
+font-size = 18
+font-feature = true 
+font-thicken = true 
